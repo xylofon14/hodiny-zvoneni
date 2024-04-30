@@ -47,8 +47,7 @@ def alarm_callback(timer):
         current_time[3] == time_point["hour"] and
         current_time[4] == time_point["minute"] and
         current_time[5] == time_point["second"]
-        for time_point in alarm_times
-    )
+        for time_point in alarm_times)
  
 alarm_timer = machine.Timer()
 alarm_timer.init(period=60, mode=machine.Timer.PERIODIC, callback=alarm_callback)
