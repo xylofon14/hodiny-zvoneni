@@ -5,7 +5,6 @@ class LcdApi:
     # Implements the API for talking with HD44780 compatible character LCDs.
     # This class only knows what commands to send to the LCD, and not how to get
     # them to the LCD.
-    #
     # It is expected that a derived class will implement the hal_xxx functions.
     #
     # The following constant names were lifted from the avrlib lcd.h header file,
