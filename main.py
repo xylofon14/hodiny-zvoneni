@@ -11,7 +11,7 @@ I2C_NUM_COLS = 20                         #Nastavují se parametry pro LCD displ
 i2c = I2C(0, sda=machine.Pin(0), scl=machine.Pin(1), freq=400000)
 lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS)                   #Inicializuje se I2C komunikace a LCD displej.
  
-buzzer = PWM(Pin(15))   #Určení GPIO pinu pro buzzer.
+buzzer = PWM(Pin(16))   #Určení GPIO pinu pro buzzer.
 buzzer.freq(500)        #Nastavení frekvence buzzeru. (od 31 Hz do 65535 Hz)
  
 alarm_times = [
