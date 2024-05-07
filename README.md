@@ -27,3 +27,5 @@ Jedná se o ukázku praktického využití mikrokontroleru v podobě hodin s ala
   <li>Předělat na bateriové napájení.
   <li>Přidat specifikou melodii pro buzzer.
 </ul>
+
+<h3>Literatura</h3>
