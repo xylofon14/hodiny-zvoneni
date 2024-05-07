@@ -71,5 +71,5 @@ while True:
     lcd.putstr("{DY:>02d}".format(DY=time[7]))
     lcd.move_to(6,1)
     lcd.putstr("{day:>02d}/{month:>02d}/{year:>04d}".format( 
-        year=time[0], month=time[1], day=time[2]))                                            #Výpis hodnot na displej. (HH = hodiny, MM = minuty, SS = sekundy, DY = den v roce)
+        year=time[0], month=time[1], day=time[2]))           #Výpis hodnot na displej. (HH = hodiny, MM = minuty, SS = sekundy, DY = den v roce)
  
