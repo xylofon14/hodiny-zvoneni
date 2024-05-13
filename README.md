@@ -29,3 +29,6 @@ Jedná se o ukázku praktického využití mikrokontroleru v podobě hodin s ala
 </ul>
 
 <h3>Literatura</h3>
+<li><a href="https://github.com/T-622/RPI-PICO-I2C-LCD" target="_blank" rel="noopener norefferer">Knihovny</a>
+<li><a href="https://www.youtube.com/watch?v=bXLgxEcT1QU&ab_channel=NerdCave" target="_blank" rel="noopener norefferer">Pomocné video k prvnímu zapojení displeje</a>
+<li><a href="https://www.waveshare.com/wiki/RP2040-Zero" target="_blank" rel="noopener norefferer">RP2040</a>
